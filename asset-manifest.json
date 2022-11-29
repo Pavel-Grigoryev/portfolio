@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a9706b5f.css",
+    "main.js": "/portfolio/static/js/main.e15bf0a7.js",
+    "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/AvatarBlackWhite.jpg": "/portfolio/static/media/AvatarBlackWhite.6db07c9538cabc6724f1.jpg",
+    "static/media/counter.jpg": "/portfolio/static/media/counter.d66b90332658caa523be.jpg",
+    "static/media/codewars.svg": "/portfolio/static/media/codewars.0e27725690e98b85f18b5a723c28c9cb.svg",
+    "static/media/react.svg": "/portfolio/static/media/react.6aff63642be0fc77fdd5baa676a99d47.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.42210ad5a64676c934a2614fd1d90d51.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.c05157f5caf2b6de37a3be41172d492a.svg",
+    "static/media/telegram.svg": "/portfolio/static/media/telegram.c505558b1eaf45e24edbc65f6d295e56.svg",
+    "main.a9706b5f.css.map": "/portfolio/static/css/main.a9706b5f.css.map",
+    "main.e15bf0a7.js.map": "/portfolio/static/js/main.e15bf0a7.js.map",
+    "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9706b5f.css",
+    "static/js/main.e15bf0a7.js"
+  ]
+}
