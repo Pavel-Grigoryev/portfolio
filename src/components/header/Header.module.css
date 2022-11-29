@@ -1,0 +1,14 @@
+.header {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: var(--palette-raisin-black);
+    z-index: 100;
+}
+
+.navCont {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}

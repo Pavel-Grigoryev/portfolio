@@ -1,0 +1,6 @@
+.button {
+    color: var(--palette-platinum);
+    background-color: var(--palette-raisin-black);
+    padding: 15px 40px;
+    max-width: 200px;
+}

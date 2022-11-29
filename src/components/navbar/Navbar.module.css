@@ -1,0 +1,22 @@
+.mainMenu {
+display: flex;
+}
+
+.navCont {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.link {
+    margin-right: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--palette-platinum);
+}
+
+.link:last-child {
+    margin-right: 0;
+}
+
+

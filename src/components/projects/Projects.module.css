@@ -1,0 +1,49 @@
+.projects {
+   min-height: 100vh;
+   background-color: var(--palette-din-gray);
+   color: var(--palette-platinum);
+   margin: 100px 0;
+}
+
+.projectsCont {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   min-height: 100vh;
+}
+
+.projectsList {
+   display: flex;
+   flex-wrap: wrap;
+   row-gap: 30px;
+   margin: 0 -30px;
+}
+
+.title {
+   margin-bottom: 80px;
+   text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+
+   .projects {
+      margin: 40px 0;
+   }
+
+   .projectsList {
+      margin: 0 -20px;
+   }
+
+   .title {
+      margin-bottom: 60px;
+   }
+
+   .projects {
+      padding: 40px 0;
+   }
+}
+
+
+
+
+

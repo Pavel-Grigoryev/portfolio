@@ -1,0 +1,47 @@
+.footer {
+    height: 80px;
+    width: 100%;
+    background-color: var(--palette-raisin-black);
+    z-index: 100;
+}
+
+.footerCont {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc {
+    position: absolute;
+    left: 20px;
+    font-size: 14px;
+}
+
+.societyCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+
+    .footerCont {
+        flex-direction: column-reverse;
+    }
+
+    .desc {
+        margin-bottom: 10px;
+        position: static;
+    }
+
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .desc {
+        font-size: 12px;
+    }
+}
