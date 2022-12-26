@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Skill.module.css'
+import s from './Skill.module.scss'
 import {SkillType} from "../Skills";
 
 type SkillPropsType = {
@@ -19,10 +19,6 @@ export const Skill = (props: SkillPropsType) => {
                         <h3 className={s.title}>{title}</h3>
                         <p className={s.desc}>{desc}</p>
                     </div>
-
-                <div className={s.flexCont}>
-
-                </div>
             </article>
         </li>
     );

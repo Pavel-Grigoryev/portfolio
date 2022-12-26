@@ -22,6 +22,22 @@ nav, footer, header, aside {
     display: block;
 }
 
+@font-face {
+    font-family: 'GT-America';
+    src: url('./assets/fonts/FontsFree-Net-GT-America-Regular-1.eot');
+    src: local('☺'), url('./assets/fonts/FontsFree-Net-GT-America-Regular-1.woff') format('woff'), url('./assets/fonts/FontsFree-Net-GT-America-Regular-1.ttf') format('truetype'), url('./assets/fonts/FontsFree-Net-GT-America-Regular-1.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT-America';
+    src: url('./assets/fonts/FontsFree-Net-GT-America-Bold-1.eot');
+    src: local('☺'), url('./assets/fonts/FontsFree-Net-GT-America-Bold-1.woff') format('woff'), url('./assets/fonts/FontsFree-Net-GT-America-Bold-1.ttf') format('truetype'), url('./assets/fonts/FontsFree-Net-GT-America-Bold-1.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
 html, body {
     height: 100%;
     width: 100%;
@@ -31,7 +47,7 @@ html, body {
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     box-sizing: border-box;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'GT-America', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: var(--palette-platinum);
@@ -80,6 +96,7 @@ h1 {
     font-weight: 600;
     font-size: 50px;
     line-height: 110%;
+    margin: 20px 0;
 }
 
 h2 {
@@ -90,6 +107,11 @@ h2 {
 h3 {
     font-size: 25px;
     line-height: 110%;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 145%;
 }
 
 :root {
@@ -100,10 +122,6 @@ h3 {
 
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 @media screen and (max-width: 900px) {
     h1 {

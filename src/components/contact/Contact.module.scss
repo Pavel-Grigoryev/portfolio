@@ -1,0 +1,52 @@
+.contact {
+   background-color: var(--palette-platinum);
+   color: var(--palette-din-gray);
+   padding: 100px 0;
+
+.title {
+   margin-bottom: 80px;
+   text-align: center;
+}
+
+.form {
+   max-width: 450px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+}
+
+   .inputText {
+      height: 35px;
+      margin-bottom: 40px;
+      background-color: transparent;
+      border-bottom: 1px solid var(--palette-din-gray);
+   }
+
+   .inputTextArea {
+      min-height: 35px;
+      margin-bottom: 40px;
+      resize: none;
+      background-color: transparent;
+      border-bottom: 1px solid var(--palette-din-gray);
+   }
+
+   .butCont {
+      align-self: center;
+   }
+}
+
+@media screen and (max-width: 900px) {
+
+   .contact {
+      padding: 60px 0;
+
+      .title {
+         margin-bottom: 60px;
+      }
+   }
+
+
+}
+
+
+

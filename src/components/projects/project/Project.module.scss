@@ -1,0 +1,56 @@
+.projectItem {
+   width: 33.3333%;
+
+   .project {
+      text-align: center;
+      padding: 0 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .projectImageCont {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &::after {
+         content: '';
+         position: absolute;
+         left: 0;
+         right: 0;
+         top:0;
+         bottom: 0;
+         background-color: var(--palette-raisin-black);
+         opacity: 0.2;
+      }
+   }
+
+   .butBlock {
+      position: relative;
+      z-index: 2;
+   }
+}
+
+@media screen and (max-width: 900px) {
+
+   .projectItem {
+      width: 50%;
+
+      .project {
+         padding: 0 20px;
+      }
+   }
+}
+
+@media screen and (max-width: 450px) {
+
+   .projectItem {
+      width: 100%;
+   }
+}
+

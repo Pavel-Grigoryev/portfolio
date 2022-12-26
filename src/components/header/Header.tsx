@@ -1,6 +1,6 @@
 import React from 'react';
 import sCont from './../../common/styles/Container.module.css';
-import s from './Header.module.css'
+import s from './Header.module.scss'
 import {Navbar} from "../navbar/Navbar";
 
 export const Header = () => {

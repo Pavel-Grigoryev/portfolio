@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Society.module.css'
+import s from './Society.module.scss'
 import github from "../../assets/images/github.svg";
 import linkedin from "../../assets/images/linkedin.svg";
 import codewars from "../../assets/images/codewars.svg";
@@ -38,7 +38,7 @@ export const Society = () => {
 
     const mySocieties = societies.map(soc => {
         return <li key={soc.id} className={s.item}>
-            <a href={soc.socRef} className={s.link} target={'_blank'}>
+            <a href={soc.socRef} className={s.link} target={'_blank'} rel="noreferrer">
                 <img src={soc.url} alt="" className={s.icon}/>
             </a>
         </li>

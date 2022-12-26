@@ -1,6 +1,6 @@
 import React from 'react';
 import sCont from './../../common/styles/Container.module.css';
-import s from './Contact.module.css'
+import s from './Contact.module.scss'
 import Button from "../button/Button";
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Project.module.css'
+import s from './Project.module.scss'
 import {ProjectType} from "../Projects";
 import Button from "../../button/Button";
 
@@ -17,7 +17,9 @@ export const Project = (props: SkillPropsType) => {
                 <div className={s.projectImageCont} style={{
                     background: `url(${url}) center/cover no-repeat`
                 }}>
-                    <Button title={'View'} type={'button'}/>
+                    <div className={s.butBlock}>
+                        <Button title={'View'} type={'button'}/>
+                    </div>
                 </div>
                 <div className={s.skillInfo}>
                     <h3 className={s.title}>{title}</h3>

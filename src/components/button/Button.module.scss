@@ -1,0 +1,81 @@
+.button {
+    color: var(--palette-platinum);
+    background-color: var(--palette-raisin-black);
+    padding: 0 60px;
+    text-transform: uppercase;
+
+    .title {
+        position: relative;
+        padding: 15px 0 20px;
+        /*overflow: hidden;*/
+    }
+    .letterBlock {
+        overflow: hidden;
+        display: inline-block;
+    }
+
+    .letter {
+        white-space: pre;
+        display: inline-block;
+        transform: translate3d(0px, 0%, 0px);
+    }
+
+    .title::before  {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background-color: var(--palette-platinum);
+        bottom: 15px;
+        right: 0;
+        opacity: 0.5;
+    }
+
+    .title::after  {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 1px;
+        background-color: var(--palette-platinum);
+        bottom: 15px;
+        right: 0;
+        opacity: 1;
+        transition: width .3s ease-in;
+        -webkit-transition: width .3s ease-in;
+    }
+
+    .button:hover .title::after  {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background-color: var(--palette-platinum);
+        bottom: 15px;
+        left: 0;
+        opacity: 1;
+    }
+
+    &:hover .letter {
+        animation: letterMove 0.3s ease-in;
+    }
+
+    &:hover .letter:nth-child(even) {
+        animation: letterMove 0.4s ease-in;
+    }
+
+    &:hover .letter:nth-child(3n) {
+        animation: letterMove 0.5s ease-in;
+    }
+
+    @keyframes letterMove {
+        0%   {transform: translate3d(0px, 0%, 0px)}
+        50%  {transform: translate3d(0px, 120%, 0px)}
+        100% {transform: translate3d(0px, 0%, 0px)}
+    }
+}
+
+
+
+
+
+

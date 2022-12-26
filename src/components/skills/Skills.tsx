@@ -1,8 +1,18 @@
 import React from 'react';
 import sCont from './../../common/styles/Container.module.css';
-import reactImg from './../../assets/images/react.svg'
-import s from './Skills.module.css'
-import {Skill} from "./skill/Skill";
+import reactImg from './../../assets/images/react.svg';
+import cssImg from './../../assets/images/css3.svg';
+import htmlImg from './../../assets/images/html5.svg';
+import jsImg from './../../assets/images/jsImg.svg';
+import tsImg from './../../assets/images/tsImg.svg';
+import reduxImg from './../../assets/images/reduxImg.svg';
+import jestImg from './../../assets/images/jestImg.svg';
+import gitImg from './../../assets/images/gitImg.svg';
+import shopifyImg from './../../assets/images/shopifyImg.svg';
+import webflowImg from './../../assets/images/webflowImg.svg';
+import wordpressImg from './../../assets/images/wordpressImg.svg';
+import s from './Skills.module.scss'
+import {Skill} from './skill/Skill';
 
 export type SkillType = {
     id: number
@@ -16,70 +26,76 @@ export const Skills = () => {
 
     const skills: Array<SkillType>  = [
         {
+            id: 1,
+            title: 'HTML5',
+            url: htmlImg,
+            desc: 'Using semantic tags, Flexbox and Grid in  HTML coding.'
+        },
+        {
             id: 2,
             title: 'CSS3',
-            url: reactImg,
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, maiores!'
+            url: cssImg,
+            desc: 'Using CSS3 in projects, including the SAS preprocessor.'
         },
         {
             id: 3,
             title: 'JavaScript',
-            url: reactImg,
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, maiores!'
+            url: jsImg,
+            desc: 'Using the latest language features.'
         },
         {
             id: 4,
             title: 'TypeScript',
-            url: reactImg,
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, maiores!'
+            url: tsImg,
+            desc: 'Using typescript on projects to minimize errors.'
         },
         {
             id: 5,
             title: 'React',
             url: reactImg,
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, maiores!'
+            desc: 'Using React Functional Components and Hooks to create a SPA.'
         },
         {
             id: 6,
             title: 'Redux',
-            url: reactImg,
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, maiores!'
+            url: reduxImg,
+            desc: 'Using Redux to manage the state of applications.'
         },
         {
             id: 7,
             title: 'React-Redux',
-            url: reactImg,
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, maiores!'
+            url: reduxImg,
+            desc: 'Using React-Redux library for easier interaction with the state of applications.'
         },
         {
             id: 8,
             title: 'Jest test',
-            url: reactImg,
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, maiores!'
+            url: jestImg,
+            desc: 'Using Jest Framework to test components and reducers to speed up development.'
+        },
+        {
+            id: 81,
+            title: 'Git',
+            url: gitImg,
+            desc: 'Using Git to track and maintain the history of file changes in projects.'
         },
         {
             id: 9,
             title: 'Shopify',
-            url: reactImg,
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, maiores!'
-        },
-        {
-            id: 10,
-            title: 'LIQUID',
-            url: reactImg,
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, maiores!'
+            url: shopifyImg,
+            desc: 'Experience in creating stores on the Shopify platform, including a migration from the Shopify platform to the Shopify 2.0 platform.'
         },
         {
             id: 11,
             title: 'Webflow',
-            url: reactImg,
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, maiores!'
+            url: webflowImg,
+            desc: 'Experience in creating websites on the Webflow platform'
         },
         {
             id: 12,
             title: 'Wordpress',
-            url: reactImg,
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, maiores!'
+            url: wordpressImg,
+            desc: 'Experience in creating websites on the Wordpress platform'
         }
     ];
 

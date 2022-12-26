@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Button.module.css'
+import s from './Button.module.scss'
 
 type ButtonType = "button" | "submit" | "reset" | undefined
 
@@ -17,12 +17,24 @@ const Button= ({title, callback, className, type}:ButtonPropsType) => {
           callback();
       }
     }
+    let keyMap = 1;
+    const titleLetters = title.split('').map(letter => {
+        return (
+            <span key={keyMap++} className={s.letter}>{letter}</span>
+        )
+    })
 
     const finalClassName = s.button
         + (className ? ' ' + className : '');
 
     return (
-            <button type={type} onClick={callbackHandler} className={finalClassName}>{title}</button>
+            <button type={type} onClick={callbackHandler} className={finalClassName}>
+                <div className={s.title}>
+                    <span className={s.letterBlock}>
+                        {titleLetters}
+                    </span>
+                </div>
+            </button>
     );
 };
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import sCont from './../../common/styles/Container.module.css';
-import s from './Footer.module.css'
+import s from './Footer.module.scss'
 import {Society} from "../society/Society";
 
 
