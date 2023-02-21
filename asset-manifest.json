@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8d8e4902.css",
+    "main.css": "/portfolio/static/css/main.76b82cfc.css",
     "main.js": "/portfolio/static/js/main.fcc63207.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/FontsFree-Net-GT-America-Regular-1.svg": "/portfolio/static/media/FontsFree-Net-GT-America-Regular-1.094bd31180fa02f5ce95.svg",
@@ -32,12 +32,12 @@
     "static/media/css3.svg": "/portfolio/static/media/css3.d6e22ec3407608e74d2b90818bde006d.svg",
     "static/media/telegram.svg": "/portfolio/static/media/telegram.c505558b1eaf45e24edbc65f6d295e56.svg",
     "static/media/html5.svg": "/portfolio/static/media/html5.3c9fc01e8e90aaba7b50557aba9b1c77.svg",
-    "main.8d8e4902.css.map": "/portfolio/static/css/main.8d8e4902.css.map",
+    "main.76b82cfc.css.map": "/portfolio/static/css/main.76b82cfc.css.map",
     "main.fcc63207.js.map": "/portfolio/static/js/main.fcc63207.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d8e4902.css",
+    "static/css/main.76b82cfc.css",
     "static/js/main.fcc63207.js"
   ]
 }
