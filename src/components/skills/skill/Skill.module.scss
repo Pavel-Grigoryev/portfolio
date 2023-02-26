@@ -1,5 +1,5 @@
 .skillsItem {
-   width: 25%;
+   width: 100%;
 
    .skill {
       text-align: center;
@@ -14,16 +14,6 @@
    }
 }
 
-@media screen and (max-width: 900px) {
-   .skillsItem {
-      width: 33.33%;
-   }
-}
 
-@media screen and (max-width: 450px) {
-   .skillsItem {
-      width: 50%;
-   }
-}
 
 

@@ -3,6 +3,7 @@
     background-color: var(--palette-raisin-black);
     padding: 0 60px;
     text-transform: uppercase;
+    position: relative;
 
     .title {
         position: relative;
@@ -44,6 +45,10 @@
         -webkit-transition: width .3s ease-in;
     }
 
+    .titlePass {
+        margin-bottom: 22px;
+    }
+
     .button:hover .title::after  {
         content: '';
         position: absolute;
@@ -71,6 +76,17 @@
         0%   {transform: translate3d(0px, 0%, 0px)}
         50%  {transform: translate3d(0px, 120%, 0px)}
         100% {transform: translate3d(0px, 0%, 0px)}
+    }
+
+    .password {
+        position: absolute;
+        font-size: 12px;
+        text-transform: capitalize;
+        letter-spacing: 0.03em;
+        width: 100%;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 

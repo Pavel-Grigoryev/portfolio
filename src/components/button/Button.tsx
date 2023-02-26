@@ -8,9 +8,10 @@ type ButtonPropsType = {
     type: ButtonType
     className?: string
     callback?: () => void
+    password?: string
 }
 
-const Button= ({title, callback, className, type}:ButtonPropsType) => {
+const Button= ({title, callback, className, type, password}:ButtonPropsType) => {
 
     const callbackHandler = () => {
       if (callback) {
@@ -27,13 +28,17 @@ const Button= ({title, callback, className, type}:ButtonPropsType) => {
     const finalClassName = s.button
         + (className ? ' ' + className : '');
 
+    const finalTitleClassName = s.title
+        + (password ? ' ' + s.titlePass : '');
+
     return (
             <button type={type} onClick={callbackHandler} className={finalClassName}>
-                <div className={s.title}>
+                <div className={finalTitleClassName}>
                     <span className={s.letterBlock}>
                         {titleLetters}
                     </span>
                 </div>
+                {password && <div className={s.password}>{password}</div>}
             </button>
     );
 };

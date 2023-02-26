@@ -1,5 +1,9 @@
 .mainMenu {
-  display: flex;
+  display: none;
+
+  @media screen and (min-width: 451px) {
+    display: flex;
+  }
 
   .link {
     position: relative;
@@ -47,7 +51,19 @@
       opacity: 1;
     }
   }
-}
+
+  .activeLink::after {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: var(--palette-platinum);
+    bottom: -6px;
+    left: 0;
+    opacity: 1;
+  }
+
+  }
+
 
 @media screen and (max-width: 450px) {
   .mainMenu {

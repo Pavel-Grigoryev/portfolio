@@ -1,7 +1,8 @@
 import React from 'react';
-import sCont from './../../common/styles/Container.module.css';
+import sCont from 'common/styles/Container.module.scss';
 import s from './Header.module.scss'
-import {Navbar} from "../navbar/Navbar";
+import {Navbar} from "./navbar/Navbar";
+import {BurgerNav} from "./burgerNav/BurgerNav";
 
 export const Header = () => {
     return (
@@ -9,6 +10,7 @@ export const Header = () => {
             <div className={sCont.container}>
                 <div className={s.navCont}>
                     <Navbar/>
+                    <BurgerNav/>
                 </div>
             </div>
         </header>

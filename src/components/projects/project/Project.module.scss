@@ -30,6 +30,16 @@
       }
    }
 
+   .desc {
+      text-align: left;
+   }
+
+   .stack {
+      display: inline-block;
+      font-weight: 600;
+      margin: 15px 5px 0 0;
+   }
+
    .butBlock {
       position: relative;
       z-index: 2;
@@ -42,7 +52,7 @@
       width: 50%;
 
       .project {
-         padding: 0 20px;
+         padding: 0 16px;
       }
    }
 }
