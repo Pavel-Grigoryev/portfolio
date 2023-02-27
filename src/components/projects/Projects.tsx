@@ -92,7 +92,7 @@ export const Projects = () => {
     return (
         <section className={s.projects} id={"projects"}>
             <div className={`${sCont.container} ${s.projectsCont}`}>
-                <Fade triggerOnce={true} duration={500} delay={500}><h2 className={s.title} >Projects</h2>
+                <Fade direction={"down"} triggerOnce={true} duration={500}><h2 className={s.title} >Projects</h2>
                 </Fade>
                 <ul className={s.projectsList}>
                     {myProjects}

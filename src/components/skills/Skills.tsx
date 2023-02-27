@@ -105,7 +105,7 @@ export const Skills = () => {
     return (
         <section className={s.skills} id={"skills"}>
             <div className={`${sCont.container} ${s.skillsCont}`}>
-                <Fade triggerOnce={true} duration={500} delay={500}>
+                <Fade direction={"down"} triggerOnce={true} duration={500}>
                     <h2 className={s.title}>My Skills</h2>
                 </Fade>
                 <ul className={s.skillsList}>
