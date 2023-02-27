@@ -109,7 +109,7 @@ export const Skills = () => {
                     <h2 className={s.title}>My Skills</h2>
                 </Fade>
                 <ul className={s.skillsList}>
-                    <Fade triggerOnce={true} duration={500} delay={500} className={s.skillsFade}>
+                    <Fade triggerOnce={true} duration={500} className={s.skillsFade}>
                         {mySkills}
                     </Fade>
                 </ul>

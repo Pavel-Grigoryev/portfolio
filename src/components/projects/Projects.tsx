@@ -4,7 +4,9 @@ import networkImg from 'assets/images/network.png';
 import todolistImg from 'assets/images/Todolist.jpg';
 import memorImg from 'assets/images/Memorize.jpg';
 import taskSpotImg from 'assets/images/TaskSpot.jpg';
-import AodImg from 'assets/images/AOD.jpg';
+import aodImg from 'assets/images/AOD.jpg';
+import ecoCoffeeImg from 'assets/images/EcoCoffee.jpg';
+import smartHaloImg from 'assets/images/SmartHalo.jpg';
 import s from './Projects.module.scss';
 import {Project} from "./project/Project";
 import {Fade} from "react-awesome-reveal";
@@ -57,12 +59,30 @@ export const Projects = () => {
         },
         {
             id: 21,
-            title: 'AOD Bike Store',
-            url: AodImg,
-            desc: 'The main page of the AOD bike store with adaptive (desktop, tablet, mobile).',
+            title: 'AOD Bike Shop',
+            url: aodImg,
+            desc: 'The main page of the AOD bike shop with adaptive (desktop, tablet, mobile).',
             link: 'https://aod-bike.myshopify.com/',
             password: 'Password: 123456',
             stack: 'Shopify, Liquid code, Shopify CLI, JavaScript, HTML5, CSS3.'
+        },
+        {
+            id: 4,
+            title: 'Eco-coffee Shop',
+            url: ecoCoffeeImg,
+            desc: 'Coffee shop website that offers unique and delicious coffee.',
+            link: 'https://eco-coffee1.myshopify.com/',
+            password: 'Password: 123456',
+            stack: 'Shopify, Liquid code, Theme Kit, JavaScript, HTML5, CSS3.'
+        },
+        {
+            id: 5,
+            title: 'SmartHalo Shop',
+            url: smartHaloImg,
+            desc: 'Bike cycling computer shop.',
+            link: 'https://eco-coffee1.myshopify.com/',
+            password: 'Password: 123456',
+            stack: 'Shopify, Liquid code, Theme Kit, JavaScript, HTML5, CSS3.'
         },
 
     ];

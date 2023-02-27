@@ -26,7 +26,7 @@ export const Project = (props: SkillPropsType) => {
                     </div>
                 </div>
 
-                <Fade direction={"down"} triggerOnce={true} duration={500} delay={300}>
+                <Fade direction={"down"} triggerOnce={true} duration={500}>
                     <div className={s.skillInfo}>
                         <h3 className={s.title}>{title}</h3>
                         <p className={s.desc}>{desc}</p>
