@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b7039886.css",
-    "main.js": "/portfolio/static/js/main.06d612a8.js",
+    "main.css": "/portfolio/static/css/main.0b2d811b.css",
+    "main.js": "/portfolio/static/js/main.682d57fe.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/CV_Pavel_Grigoryev.pdf": "/portfolio/static/media/CV_Pavel_Grigoryev.1b48c0fc8f070713f803.pdf",
     "static/media/FontsFree-Net-GT-America-Regular-1.svg": "/portfolio/static/media/FontsFree-Net-GT-America-Regular-1.daa46026a93c47844393.svg",
     "static/media/SmartHalo.jpg": "/portfolio/static/media/SmartHalo.8a3ff8b5dce12a33190e.jpg",
     "static/media/network.png": "/portfolio/static/media/network.3244aa8f19d014be800e.png",
@@ -35,12 +36,12 @@
     "static/media/css3.svg": "/portfolio/static/media/css3.d6e22ec3407608e74d2b90818bde006d.svg",
     "static/media/telegram.svg": "/portfolio/static/media/telegram.c505558b1eaf45e24edbc65f6d295e56.svg",
     "static/media/html5.svg": "/portfolio/static/media/html5.3c9fc01e8e90aaba7b50557aba9b1c77.svg",
-    "main.b7039886.css.map": "/portfolio/static/css/main.b7039886.css.map",
-    "main.06d612a8.js.map": "/portfolio/static/js/main.06d612a8.js.map",
+    "main.0b2d811b.css.map": "/portfolio/static/css/main.0b2d811b.css.map",
+    "main.682d57fe.js.map": "/portfolio/static/js/main.682d57fe.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7039886.css",
-    "static/js/main.06d612a8.js"
+    "static/css/main.0b2d811b.css",
+    "static/js/main.682d57fe.js"
   ]
 }
