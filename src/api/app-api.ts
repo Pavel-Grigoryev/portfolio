@@ -5,7 +5,7 @@ const instance = axios.create ( {
     baseURL:
         process.env.NODE_ENV === 'development'
             ? 'http://localhost:3010/sendMessage'
-            : 'https://neko-back.herokuapp.com/2.0/',
+            : 'https://portfolio-server-blush-three.vercel.app/sendMessage',
     // withCredentials: true
 })
 
