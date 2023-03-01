@@ -72,7 +72,7 @@ export const Main = () => {
             <Particles options={particlesOpt}
                        init={particlesInit}/>
             <div className={`${sCont.container} ${s.mainCont}`}>
-                <Fade triggerOnce={true} duration={1000} delay={500}>
+                <Fade direction={"down"} duration={1000} delay={500} triggerOnce={true}>
                     <div className={s.textBlock}>
                         <h2 className={s.subTitle}>Hello</h2>
                         <h1 className={s.title}>I'm Pavel Grigoryev.</h1>
@@ -82,7 +82,7 @@ export const Main = () => {
                         </div>
                     </div>
                 </Fade>
-                <Fade triggerOnce={true} duration={1000} delay={500} className={s.photoFade}>
+                <Fade triggerOnce={true} duration={1000} delay={500} className={s.photoFade} direction={"down"}>
                     <div className={s.photoBlock}>
                         <img className={s.photo} src={avatar} alt="person"/>
                     </div>
