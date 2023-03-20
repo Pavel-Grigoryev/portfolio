@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0b2d811b.css",
-    "main.js": "/portfolio/static/js/main.792d9d7d.js",
+    "main.js": "/portfolio/static/js/main.d62e8062.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
-    "static/media/CV_Pavel_Grigoryev.pdf": "/portfolio/static/media/CV_Pavel_Grigoryev.e93a4f911873e50b758d.pdf",
+    "static/media/CV_Pavel_Grigoryev.pdf": "/portfolio/static/media/CV_Pavel_Grigoryev.a6df93e50e375e536ff7.pdf",
     "static/media/FontsFree-Net-GT-America-Regular-1.svg": "/portfolio/static/media/FontsFree-Net-GT-America-Regular-1.daa46026a93c47844393.svg",
     "static/media/SmartHalo.jpg": "/portfolio/static/media/SmartHalo.8a3ff8b5dce12a33190e.jpg",
-    "static/media/network.png": "/portfolio/static/media/network.3244aa8f19d014be800e.png",
     "static/media/FontsFree-Net-GT-America-Regular-1.eot": "/portfolio/static/media/FontsFree-Net-GT-America-Regular-1.0cd86750df147d1283c1.eot",
     "static/media/FontsFree-Net-GT-America-Regular-1.ttf": "/portfolio/static/media/FontsFree-Net-GT-America-Regular-1.4d465b839cabdd3b2926.ttf",
     "static/media/AvatarBlackWhite.jpg": "/portfolio/static/media/AvatarBlackWhite.6db07c9538cabc6724f1.jpg",
@@ -15,6 +14,7 @@
     "static/media/EcoCoffee.jpg": "/portfolio/static/media/EcoCoffee.e01096ad5346c0d6adfb.jpg",
     "static/media/Memorize.jpg": "/portfolio/static/media/Memorize.9044bf4f0388f6e91513.jpg",
     "static/media/TaskSpot.jpg": "/portfolio/static/media/TaskSpot.0b7d119b2464e7eeb914.jpg",
+    "static/media/Aspire.jpg": "/portfolio/static/media/Aspire.1448646bfceb1ae3258c.jpg",
     "static/media/AOD.jpg": "/portfolio/static/media/AOD.f2dd0ca2c8d8db6ebd37.jpg",
     "static/media/Todolist.jpg": "/portfolio/static/media/Todolist.e5ac6c5ea856df76fc8c.jpg",
     "static/media/FontsFree-Net-GT-America-Bold-1.eot": "/portfolio/static/media/FontsFree-Net-GT-America-Bold-1.20dcb8142ca5dd3158c1.eot",
@@ -37,11 +37,11 @@
     "static/media/telegram.svg": "/portfolio/static/media/telegram.c505558b1eaf45e24edbc65f6d295e56.svg",
     "static/media/html5.svg": "/portfolio/static/media/html5.3c9fc01e8e90aaba7b50557aba9b1c77.svg",
     "main.0b2d811b.css.map": "/portfolio/static/css/main.0b2d811b.css.map",
-    "main.792d9d7d.js.map": "/portfolio/static/js/main.792d9d7d.js.map",
+    "main.d62e8062.js.map": "/portfolio/static/js/main.d62e8062.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b2d811b.css",
-    "static/js/main.792d9d7d.js"
+    "static/js/main.d62e8062.js"
   ]
 }
