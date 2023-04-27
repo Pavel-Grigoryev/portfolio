@@ -1,6 +1,6 @@
 import React from 'react';
 import sCont from 'common/styles/Container.module.scss';
-import networkImg from 'assets/images/network.png';
+import networkImg from 'assets/images/Aspire.jpg';
 import todolistImg from 'assets/images/Todolist.jpg';
 import memorImg from 'assets/images/Memorize.jpg';
 import taskSpotImg from 'assets/images/TaskSpot.jpg';
@@ -47,7 +47,7 @@ export const Projects = () => {
             url: networkImg,
             desc: 'Aspire is a social network where people can communicate with each other.',
             link: 'https://pavel-grigoryev.github.io/Social_network/',
-            stack: 'React, Redux, Redux-router-dom, Redux-thunk, Axios, TypeScript, React Hook Form, Jest test.'
+            stack: 'React, Redux, Redux-router-dom, Redux-thunk, Axios, TypeScript, React Hook Form, Jest test, Ant Design.'
         },
         {
             id: 3,
@@ -80,7 +80,7 @@ export const Projects = () => {
             title: 'SmartHalo Shop',
             url: smartHaloImg,
             desc: 'Bike cycling computer shop.',
-            link: 'https://eco-coffee1.myshopify.com/',
+            link: 'https://smarthalo-bike.myshopify.com/',
             password: 'Password: 123456',
             stack: 'Shopify, Liquid code, Theme Kit, JavaScript, HTML5, CSS3.'
         },
