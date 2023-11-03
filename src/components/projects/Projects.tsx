@@ -1,15 +1,14 @@
 import React from 'react';
 import sCont from 'common/styles/Container.module.scss';
 import networkImg from 'assets/images/Aspire.jpg';
-import todolistImg from 'assets/images/Todolist.jpg';
 import memorImg from 'assets/images/Memorize.jpg';
 import taskSpotImg from 'assets/images/TaskSpot.jpg';
 import aodImg from 'assets/images/AOD.jpg';
 import ecoCoffeeImg from 'assets/images/EcoCoffee.jpg';
 import smartHaloImg from 'assets/images/SmartHalo.jpg';
 import s from './Projects.module.scss';
-import {Project} from "./project/Project";
-import {Fade} from "react-awesome-reveal";
+import {Project} from './project/Project';
+import {Fade} from 'react-awesome-reveal';
 
 export type ProjectType = {
     id: number
@@ -48,14 +47,6 @@ export const Projects = () => {
             desc: 'Aspire is a social network where people can communicate with each other.',
             link: 'https://pavel-grigoryev.github.io/Social_network/',
             stack: 'React, Redux, Redux-router-dom, Redux-thunk, Axios, TypeScript, React Hook Form, Jest test, Ant Design.'
-        },
-        {
-            id: 3,
-            title: 'Todo List',
-            url: todolistImg,
-            desc: 'An app built using React class components and the React Bootstrap framework that allows you to create and manage to-do lists.',
-            link: 'https://pavel-grigoryev.github.io/Todo-list-ver-1/',
-            stack: 'React class components, JavaScript, React Bootstrap'
         },
         {
             id: 21,
