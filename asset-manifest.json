@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0b2d811b.css",
-    "main.js": "/portfolio/static/js/main.647a7006.js",
+    "main.js": "/portfolio/static/js/main.e306b046.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/CV_Pavel_Grigoryev.pdf": "/portfolio/static/media/CV_Pavel_Grigoryev.e6636b85ae55f612c4d4.pdf",
     "static/media/FontsFree-Net-GT-America-Regular-1.svg": "/portfolio/static/media/FontsFree-Net-GT-America-Regular-1.daa46026a93c47844393.svg",
@@ -16,7 +16,6 @@
     "static/media/TaskSpot.jpg": "/portfolio/static/media/TaskSpot.0b7d119b2464e7eeb914.jpg",
     "static/media/Aspire.jpg": "/portfolio/static/media/Aspire.1448646bfceb1ae3258c.jpg",
     "static/media/AOD.jpg": "/portfolio/static/media/AOD.f2dd0ca2c8d8db6ebd37.jpg",
-    "static/media/Todolist.jpg": "/portfolio/static/media/Todolist.e5ac6c5ea856df76fc8c.jpg",
     "static/media/FontsFree-Net-GT-America-Bold-1.eot": "/portfolio/static/media/FontsFree-Net-GT-America-Bold-1.20dcb8142ca5dd3158c1.eot",
     "static/media/FontsFree-Net-GT-America-Bold-1.ttf": "/portfolio/static/media/FontsFree-Net-GT-America-Bold-1.994e78a6056b0a085ff1.ttf",
     "static/media/FontsFree-Net-GT-America-Bold-1.woff": "/portfolio/static/media/FontsFree-Net-GT-America-Bold-1.0f8fc758a3b5d1bd54b7.woff",
@@ -37,11 +36,11 @@
     "static/media/telegram.svg": "/portfolio/static/media/telegram.c505558b1eaf45e24edbc65f6d295e56.svg",
     "static/media/html5.svg": "/portfolio/static/media/html5.3c9fc01e8e90aaba7b50557aba9b1c77.svg",
     "main.0b2d811b.css.map": "/portfolio/static/css/main.0b2d811b.css.map",
-    "main.647a7006.js.map": "/portfolio/static/js/main.647a7006.js.map",
+    "main.e306b046.js.map": "/portfolio/static/js/main.e306b046.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b2d811b.css",
-    "static/js/main.647a7006.js"
+    "static/js/main.e306b046.js"
   ]
 }
