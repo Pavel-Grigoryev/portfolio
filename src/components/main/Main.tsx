@@ -1,14 +1,14 @@
 import React, {useCallback, useMemo} from 'react';
 import sCont from 'common/styles/Container.module.scss';
-import avatar from 'assets/images/AvatarBlackWhite.jpg'
-import s from './Main.module.scss'
-import Button from "../button/Button";
-import type {Engine} from "tsparticles-engine";
-import Particles from "react-particles";
-import {loadFull} from "tsparticles";
-import {Fade} from "react-awesome-reveal";
+import avatar from 'assets/images/AvatarBlackWhite.jpg';
+import s from './Main.module.scss';
+import Button from '../button/Button';
+import type {Engine} from 'tsparticles-engine';
+import Particles from 'react-particles';
+import {loadFull} from 'tsparticles';
+import {Fade} from 'react-awesome-reveal';
 // @ts-ignore
-import pdfCV from "assets/images/CV_Pavel_Grigoryev.pdf";
+import pdfCV from 'assets/images/CV_Pavel_Grigoryev.pdf';
 
 
 export const Main = () => {
@@ -21,10 +21,10 @@ export const Main = () => {
         return {
             particles: {
                 color: {
-                    value: "#E3E3E1",
+                    value: '#E3E3E1',
                 },
                 links: {
-                    color: "#E3E3E1",
+                    color: '#E3E3E1',
                     distance: 120,
                     enable: true,
                     opacity: 0.5,
@@ -34,10 +34,10 @@ export const Main = () => {
                     enable: true,
                 },
                 move: {
-                    direction: "none",
+                    direction: 'none',
                     enable: true,
                     outModes: {
-                        default: "bounce",
+                        default: 'bounce',
                     },
                     random: false,
                     speed: 1,
@@ -54,25 +54,25 @@ export const Main = () => {
                     value: 0.5,
                 },
                 shape: {
-                    type: "circle",
+                    type: 'circle',
                 },
                 size: {
                     value: {min: 0.2, max: 0.2},
                 },
             },
-        }
-    }, [])
+        };
+    }, []);
 
     const downloadCVHandle = () => {
         window.open(pdfCV, '_blank');
-    }
+    };
 
     return (
-        <section className={s.main} id={"main"}>
+        <section className={s.main} id={'main'}>
             <Particles options={particlesOpt}
                        init={particlesInit}/>
             <div className={`${sCont.container} ${s.mainCont}`}>
-                <Fade direction={"down"} duration={1000} delay={500} triggerOnce={true}>
+                <Fade direction={'left'} duration={1000} delay={500} triggerOnce={true}>
                     <div className={s.textBlock}>
                         <h2 className={s.subTitle}>Hello</h2>
                         <h1 className={s.title}>I'm Pavel Grigoryev.</h1>
@@ -82,7 +82,7 @@ export const Main = () => {
                         </div>
                     </div>
                 </Fade>
-                <Fade triggerOnce={true} duration={1000} delay={500} className={s.photoFade} direction={"down"}>
+                <Fade triggerOnce={true} duration={1000} delay={500} className={s.photoFade} direction={'right'}>
                     <div className={s.photoBlock}>
                         <img className={s.photo} src={avatar} alt="person"/>
                     </div>

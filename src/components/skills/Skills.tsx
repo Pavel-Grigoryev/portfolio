@@ -1,13 +1,16 @@
 import React from 'react';
 import sCont from 'common/styles/Container.module.scss';
 import reactImg from 'assets/images/react.svg';
+import nextImg from 'assets/images/nextjs.svg';
 import cssImg from 'assets/images/css3.svg';
+import tailwindImg from 'assets/images/tailwind.svg';
 import htmlImg from 'assets/images/html5.svg';
 import jsImg from 'assets/images/jsImg.svg';
 import tsImg from 'assets/images/tsImg.svg';
 import reduxImg from 'assets/images/reduxImg.svg';
 import jestImg from 'assets/images/jestImg.svg';
 import gitImg from 'assets/images/gitImg.svg';
+import dockerImg from 'assets/images/docker.svg';
 import shopifyImg from 'assets/images/shopifyImg.svg';
 import webflowImg from 'assets/images/webflowImg.svg';
 import wordpressImg from 'assets/images/wordpressImg.svg';
@@ -31,6 +34,12 @@ export const Skills = () => {
             title: 'React',
             url: reactImg,
             desc: 'Using React Functional Components and Hooks to create a SPA.'
+        },
+        {
+            id: 14,
+            title: 'Next.js',
+            url: nextImg,
+            desc: 'Using Next.js to create SSR/SSG applications.'
         },
         {
             id: 6,
@@ -75,10 +84,22 @@ export const Skills = () => {
             desc: 'Using CSS3 in projects, including the SAS preprocessor.'
         },
         {
+            id: 15,
+            title: 'Tailwindcss',
+            url: tailwindImg,
+            desc: 'Using a modern CSS framework.'
+        },
+        {
             id: 81,
             title: 'Git',
             url: gitImg,
             desc: 'Using Git to track and maintain the history of file changes in projects.'
+        },
+        {
+            id: 16,
+            title: 'Docker',
+            url: dockerImg,
+            desc: 'Using Docker to ensure quick delivery of changes to sites.'
         },
         {
             id: 9,

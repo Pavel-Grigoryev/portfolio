@@ -1,5 +1,5 @@
 import axios from 'axios'
-import {ValuesType} from "../components/contact/Contact";
+import {ValuesType} from 'components/contact/Contact';
 
 const instance = axios.create ( {
     baseURL:

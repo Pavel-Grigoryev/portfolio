@@ -2,6 +2,7 @@ import React from 'react';
 import sCont from 'common/styles/Container.module.scss';
 import networkImg from 'assets/images/Aspire.jpg';
 import memorImg from 'assets/images/Memorize.jpg';
+import dhImg from 'assets/images/dh-designer.jpg';
 import taskSpotImg from 'assets/images/TaskSpot.jpg';
 import aodImg from 'assets/images/AOD.jpg';
 import ecoCoffeeImg from 'assets/images/EcoCoffee.jpg';
@@ -24,6 +25,17 @@ export type ProjectType = {
 export const Projects = () => {
 
     const projects: Array<ProjectType> = [
+        {
+            id: 6,
+            title: 'Dh-designer.com',
+            url: dhImg,
+            desc: 'Dh-designer.com this is a multi-page UX/UI designer\'s website. The visual design of the site includes two themes: light and dark,\n' +
+                'allowing visitors to choose their preferred display option. Framer Motion animation library was used to create an attractive visual presentation. \n' +
+                'The project has set up automatic code verification using eslint, styleline and husky.\n' +
+                'To ensure quick delivery of changes to the site, the project uses Git Actions and Docker.',
+            link: 'https://dh-designer.com/',
+            stack: 'Next.js, TypeScript, Zustand, Tailwindcss, Framer Motion, Swiper, Docker, eslint, stylelint.'
+        },
         {
             id: 1,
             title: 'Memorize',
